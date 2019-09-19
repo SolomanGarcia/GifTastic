@@ -1,5 +1,5 @@
 //initial array of celebrities
-var celebrities = ["Donald Tump", "Arnold Schwarzenegger", "Dave Chappelle", "Beyonce", "kim kardashian", "Lady Gaga", "Snoop Dog", "michael Jackson", "Hulk Hogan", "Scarlett Johansson"];
+var celebrities = ["Donald Tump", "Arnold Schwarzenegger", "Dave Chappelle", "Beyonce", "Kim Kardashian", "Lady Gaga", "Snoop Dog", "Michael Jackson", "Hulk Hogan", "Scarlett Johansson"];
 
 //displayCelebrityGifs
 function displayCelebrityGifs() {
