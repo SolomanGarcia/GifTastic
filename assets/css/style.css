@@ -1,0 +1,65 @@
+html {
+    position: relative;
+    min-height: 100%;
+
+}
+
+.container {
+    display: grid;
+    grid-column: 2fr 1fr;
+    grid-row: 1fr 1fr 3fr;
+    column-width: 100%;
+    grid-template-areas:
+    "header header header"
+    "buttons-view buttons-view buttons-view"
+    "celebrity-view celebrity-view celebrity-form";
+   
+    height: 100%;
+
+}
+
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: aliceblue;  
+}
+
+#header {
+    grid-area: header;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    width: 100;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: blueviolet;
+
+}
+
+#buttons-view {
+    grid-area: buttons-view;
+    text-align: center;
+}
+
+#celebrity-form {
+    grid-area: celebrity-form;
+    text-align: center;
+}
+
+
+#celebrity-view {
+    grid-area: celebrity-view;
+    text-align: center;
+}
+
+.celebrity-btn {
+    color: whitesmoke;
+    background-color: blueviolet;
+    padding: 6px 11px;
+    border-radius: 10px;
+}
+
+#add-celebrity {
+    color: whitesmoke;
+    background-color: blueviolet;
+    padding: 6px 11px;
+    border-radius: 10px;
+}
